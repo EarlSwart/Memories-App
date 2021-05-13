@@ -6,6 +6,9 @@ export default makeStyles({
     paddingTop: '56.25%',
     backgroundColor: 'rgba(0, 0, 0, 0.5)',
     backgroundBlendMode: 'darken',
+    '&:hover': {
+      backgroundBlendMode: 'normal',
+    },
   },
   border: {
     border: 'solid',
@@ -39,7 +42,7 @@ export default makeStyles({
   details: {
     display: 'flex',
     justifyContent: 'space-between',
-    margin: '20px',
+    margin: '5px 0px 5px 20px',
   },
   title: {
     padding: '0 16px',
@@ -49,4 +52,22 @@ export default makeStyles({
     display: 'flex',
     justifyContent: 'space-between',
   },
+  backdrop: {
+    zIndex: 1,
+    color: '#fff',
+  },
+  backdropImg: {
+    width: '400px',
+    height: 'auto',
+    backgroundColor: '#9ecca4',
+    padding: '100px',
+  },
+  img: {
+    width: '100%',
+    height: 'auto',
+    objectFit: 'contain',
+  },
+  thumbUp: {
+    backgroundColor: "#1f441e",
+  }
 });
