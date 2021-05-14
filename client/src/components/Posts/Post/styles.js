@@ -67,7 +67,7 @@ export default makeStyles({
     height: 'auto',
     objectFit: 'contain',
   },
-  thumbUp: {
-    backgroundColor: "#1f441e",
+  likeGreen: {
+    color: "#1f441e",
   }
 });
